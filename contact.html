@@ -16,6 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css" />
 </head>
 
 <body>
@@ -43,6 +44,51 @@
         </div>
     </nav>
     <!-- end of Nav bar -->
+
+    <main class="container py-3">
+        <h1 class="mb-5">Contact Us</h1>
+        <div class="row">
+            <div class="col-md">
+                <h2 class="mb-3">Reach us on social media</h2>
+                <p>
+                    <a href="https://facebook.com">
+                        <i class="fab fa-facebook"></i> @Goodboy
+                    </a>
+                </p>
+                <p>
+                    <a href="https://twitter.com">
+                        <i class="fab fa-twitter"></i> @Goodboy
+                    </a>
+                </p>
+                <p>
+                    <a href="https://youtube.com">
+                        <i class="fab fa-youtube"></i> @Goodboy TV
+                    </a>
+                </p>
+            </div>
+            <div class="col-md">
+                <h2 class="mb-3">Send us a message</h2>
+                <form action="thankyou.html" method="POST">
+                        <div class="form-group">
+                            <label for="nessage">Message</label>
+                            <input type="text" class="form-control" id="fullName" required name="fullName">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" required name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us why you'are adopting</label>
+                            <textarea class="form-control" id="meassage" rows="3" required name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Primary</button>
+                </form>
+            </div>
+        </div>
+
+
+
+    </main>
 
     <!-- start of footer -->
     <footer class="border-top mt-5">
